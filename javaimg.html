@@ -11,37 +11,38 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">DigitalWaters</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="instantshot.html" class="btn">InstantShot</a>
-      <a href="fasticns.html" class="btn">FastIcns</a>
-      <a href="cocopad.html" class="btn">CocoPad</a>
-      <a href="javaimg.html" class="btn">JavaImg</a>
-      <a href="contactus.html" class="btn">Contact Us</a>
+      <h1 class="project-name">JavaImg</h1>
+      <h2 class="project-tagline">A multiplatform application to quickly view images.</h2>
+      <a href="javaimg_downloads.html" class="btn">Download dmg</a>
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>We moved!</h3>
-
+      <p>Especially created to read digitalized comics.<br/>
+<br/>
+Among others, PNG, JPG and GIF formats are supported and images can also be read from ZIP, JAR and RAR files.</p>
+      <h3>~ About JavaImg ~
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a></h3>
 <p>
-  We moved but all the software is still here:
-<ul>
-  <li>InstantShot!</li>
-  <li>FastIcns!</li>
-  <li>Offshoots</li>
-  <li>Cocopad</li>
-  <li>JavaImg</li>
-</ul>
-Please note that it is not possible to leave comments anymore, so for a quick reply, please contact us at our <a href="mailto:info@digitalwaters.net">info</a> email.
+A multiplatform application to quickly view images.<br/>
+<br/>
+Especially created to read digitalized comics.<br/>
+<br/>
+Among others, PNG, JPG and GIF formats are supported and images can also be read from ZIP, JAR and RAR files.<br/>
+<br/>
+For now it's only available the Mac OS X (10.2 and above) and the plain Java version (without the native library to read inside RAR files). Full sources are also available (the package contains also the png lib and the Java part of the unrar lib).<br/>
+The plain Java version should work on every system with JRE 1.4 or above. Just copy all files in a folder and type from there:<br/>
+<br/>
+java -Xmx256M -jar JavaImg.jar<br/>
+where 256M is the maximum memory you want available for the application (the actual needed memory depends from the images you want to read).<br/>
+<br/>
+To use the application, just drag one or more files or folders in the main window or into the app's icon or in the dialog open by File -> Open. If you drag a single file, the app will open all files and folders in the same folder. If you drag one or more archives or folders or more than one file, the app will open just the dragged items.<br/>
+<br/>
+The functions and the commands available are listed in the panel shown/hidden by clicking the ' ? ' in the command panel or by pressing ' h '. The panels and the image can be dragged with the mouse.<br/>
+<br/>
+To read the images I used the free libraries Imagero Reader, Sixlegs' PNG and UnRARLib (with its Java port). They are included. 
 </p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>InstantShot! 2.6.5 is out!</h3>
-
-<p>Thank to all the the reporting, we made some bugfixing and released a new version of the software.</p>
-
-
+<h2>~ About the authors ~</h2>
+<p>This project — currently on hold — is carried on by Matteo. As soon as getting his first Mac, he understood he was missing a simple, reasonably fast image viewer, especially for comics found on the web. So he tried to make one that could also be multi-platform. Right now for the Mac platform we strongly suggest FFView, faster and with very similar features (and more).</p>
 <!-- <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
@@ -71,4 +72,3 @@ Please note that it is not possible to leave comments anymore, so for a quick re
   
   </body>
 </html>
-

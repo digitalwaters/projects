@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Offshoots</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Offshoots</h1>
+      <h2 class="project-tagline">Offshoots growing on your desktop or through your windows while you work! And watch it, they follow your mouse! Or you can make them grow as a screensaver! </h2>
+      <a href="offshoots_downloads.html" class="btn">Download dmg</a>
+    </section>
+<p><DIV style="text-align:center"><IMG SRC="images/offshoots/offshoots_icon.png"></DIV></p>
+    <section class="main-content">
+      <h3>
+<h2>~ About Offshoots 1.4 ~</h2>
+<h3>How does Offshoots works?</h3>
+<p>The application animates the wallpaper of your desktop with growing trees. The growth follows some easy–to–hack parameters. The offshoots lazily follow your mouse cursor or some random points.</p>
+
+<h3>I really like my desktop wallpaper. Can I make the trees grow over it?</h3>
+<p>Yes: you can set Offshoots to use you current wallpaper as the background. Or you can choose your favorite solid color. Or a mix of the two. The default option is to make it randomly choose among one of its predefined colors.</p>
+
+<h3>What if I really like the current image and I want to save it?</h3>
+<p>You can copy the image to the clipboard (Command–C or from the menu) and save it from Preview or from your editor of choice. You can also simply hold on the current image with Pause command.</p>
+<h3>Will it hog my CPU?</h3>
+<p>
+It is very unlikely: the application should take a very reasonable portion of the CPU time. You can also change some parameters to further reduce the CPU load: for example you can change the frame rate. When you're headed for some heavy computation, you can also pause Offshoots from the menu or with Command–P. Or you can choose to make it appear only after some time that your computer has been idle.
+</p>
+<h3>What if I want it as a screensaver?</h3>
+<p>
+The release contains a screensaver version of it too. Drop it in the "Library/Screen Savers" folder of your Home and choose it from the system preferences' panel (or just double click the screensaver and the system will install it for you). Or you can test the "ScreenSaver mode" in the standalone application.
+</p>
+<h3>My desktop is always hidden. What if I want the trees more visible?</h3>
+<p>
+The release contains a screensaver version of it too. Drop it in the "Library/Screen Savers" folder of your Home and choose it from the system preferences' panel (or just double click the screensaver and the system will install it for you). Or you can test the "ScreenSaver mode" in the standalone application.
+</p>
+<h3>What the heck do all those options in the preferences mean?</h3>
+<p>
+The first panel is for some general options:
+which screen's borders originate the starting boughs;
+whether you want leaves on the trees (it can slower a little the drawing);
+if the computation should start over after some time all the brushes have finished drawing;
+whether you want a new computation to draw over the previous one, fading it;
+the alpha factor of the offshoots' brushes;
+whether the offshoots follow the mouse cursor or some randomly moving invisible points.
+
+The second panel lets you change the behaviour of the application's window:
+if you want to use your original wallpaper or you want to use a solid color as a background (a fixed one or one randomly chosen among some predefined ones);
+the alpha factor you want to apply to the solid colors (both random and fixed); setting this at the maximum (no transparency) can increase the performance. It effectively set the transparency for the window too: if you want to put the window over your desktop, always on top or as a normal window, you can set the transparency to keep working with the other apps;
+the type of window to use: you can make trees grow under the desktop icons, over the icons, on a layer interposed with the other running apps' windows and on a layer over all the other windows; for some interesting effect, try this in combination with the alpha setting and keep in mind that offshoots ignore your mouse clicks!
+whether you want the trees to appear only after some configurable idle time and disappear while you're working.
+
+The third panel contains some parameters you can change to tweak the trees' generation:
+min/max boughs at start: limits for the number of brushes at start;
+max brushes: max number of brushes at any time: it can affect how many offshoots are created and the CPU occupation; it doesn't affect the leaves' brushes;
+max offshoots/leaves: max number of offshoots and leaves to draw at any one time: new leaves and branches won't be created when the limits are reached; note that if the max brushes' limit is lower than this one, branches will be drawn as soon as possible;
+min/max brush size: limits for the size of the brushes at start;
+brush speed: it affects the module of the brushes' starting velocity;
+brush size speed: it affects the speed at which the size of the brushes dicrease;
+max offshoots' distance: the upper limit (in pixels) at which a new offshoot will be created;
+max leaves' distance: the upper limit (in pixels) at which leaves (and small branches) will be created;
+max size for leaves: the brush size of branches at which leaves begin to be created;
+offshoots' distortion: how much the branches will be randomly distorted along the way, if 0 they will steadily decrease in size and follow very smooth paths;
+offshoots' curliness: how much the branches will be randomly curved in curls;
+random points: how many different random points will be followed by the branches when not following the mouse;
+following force: how much the branches tend to the mouse or to the random points;
+fade factor: how much to fade an image before creating a new one; if 0 the image will remain unchanged, if 100 it will disappear completely
+frame rate: how many frames should be drawn for each second: a higher rate means more speed, smoothness and CPU consumption.
+
+In the fourth panel you can change the colors used for the background, the trees and the leaves. For the first two groups you can enable up to a certain number of colors that are randomly chosen when needed. For the leaves you have to choose three colors that are randomly chosen with decreasing probability (the first one is the most probable, the last one the most uncommon).
+</p>
+<h3>I want to experiment with the settings but I fear I won't be able to return to the old ones.</h3>
+<p>
+You can save presets from the preferences and recall them whenever you want. You're obviously encouraged to play with these parameters. If you're lazy you can set some of them to be randomly chosen for each new generation / brush. (NEW) You can also save (export) a preset to disk or load (import) one from disk: this can be useful to bring them on different computers or share them with other people (send us yours if you're proud of them and we'll publish them with credit on this site).
+</p>
+<h3>Offshoots doesn't work / goes very slowly / hogs my CPU.</h3>
+<p>
+Make sure to have the right version for your version of OS X. In the latest version of OS X 10.6, Snow Leopard, a few things have changed and it was not possible to create a new version that would work on all systems. So please use Offshoots version 1.4b only if you've got Snow Leopard installed. If on the other hand you're using an older version of OS X (10.4 or 10.5), please use Offshoots version 1.3. The two versions of Offshoots offer the same features but work better on the respective OS X versions.
+</p>
+<h2>~ About the authors ~</h2>
+<p>Version 1.0 was made by Matteo during the Easter's weekend. The icon was made by Juna.</p>
+   <footer class="site-footer">
+     	
+       <!-- <span class="site-footer-owner"><a href="https://github.com/antigones/pages">Pages</a> is maintained by <a href="https://github.com/antigones">antigones</a>.</span> -->
+  <!-- <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span> -->
+  <div style="text-align:center">
+  Donations? Send us a <a href="http://www.amazon.co.uk/gp/registry/wishlist/9HIU7Z66JXXU">gift</a>!<br/><br/>
+&copy;2007 DigitalWaters.net<br/>
+<br/>
+<a href="//www.iubenda.com/privacy-policy/503304" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script><div></div>
+</div>
+		</div>
+
+        
+      </footer>
+    </section>
+
+  
+  </body>
+</html>
