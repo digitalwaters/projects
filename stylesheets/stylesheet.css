@@ -249,3 +249,11 @@ h1 a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.announce {
+	background-color: #ffeb4b;
+	color: #FF0000;
+	padding: 20px;
+	border-radius: 20px;
+	font-weight: bold;
+}
